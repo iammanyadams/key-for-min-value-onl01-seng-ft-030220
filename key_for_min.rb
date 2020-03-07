@@ -1,4 +1,4 @@
-def smallest_hash_value(hash)
+def key_for_min_value(hash)
   smallest_key = nil
   smallest_value = nil
   hash.each do |k, v|
