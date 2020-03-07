@@ -1,11 +1,11 @@
 def smallest_hash_value(hash)
   smallest_key = nil
-  smallest`_value = nil
+  smallest_value = nil
   hash.each do |k, v|
-    if lowest_value == nil || v < lowest_value
-      lowest_value = v
-      lowest_key = k
+    if smallest_value == nil || v < smallest_value
+      smallest_value = v
+      smallest_key = k
     end
   end
-  lowest_key
+  smallest_key
 end
